@@ -1,3 +1,4 @@
+export PATH=/usr/local/bin:$PATH
 export EDITOR='subl -w'
 export SHELL=/bin/bash
 
@@ -21,7 +22,8 @@ alias be='bundle exec'
 alias bi='bundle install'
 alias bu='bundle update'
 
-# git aliases
+# git aliases and auto completion
+source ~/.git-completion.sh
 alias gst='git status'
 alias gl='git pull'
 alias gp='git push'
@@ -29,6 +31,11 @@ alias gc='git commit -v'
 alias gca='git commit -v -a'
 alias gb='git branch'
 alias gba='git branch -a'
+
+# bash color
+PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'
+export CLICOLOR=true
+export LSCOLORS=ExGxFxdxCxDxDxBxBxExEx
 
 # ruby version manager
 # [[ -s "/Users/florian/.rvm/scripts/rvm" ]] && source "/Users/florian/.rvm/scripts/rvm"
