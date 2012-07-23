@@ -23,7 +23,7 @@ alias bi='bundle install'
 alias bu='bundle update'
 
 # git aliases and auto completion
-source ~/.git-completion.sh
+source ~/.dotfiles/git-completion.sh
 alias gst='git status'
 alias gl='git pull'
 alias gp='git push'
