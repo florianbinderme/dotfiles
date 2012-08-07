@@ -10,8 +10,9 @@ alias la='ls -lah'
 alias mou='open -a Mou'
 
 # workspace
-alias mdevbox='mount -t nfs 33.33.33.124:/home/dozeo ~/Workspace/dozeo/devbox/'
-alias umdevbox='umount ~/Workspace/dozeo/devbox/'
+alias mdevbox='mount -t nfs 33.33.33.124:/home/dozeo ~/Workspace/dozeo/devbox'
+alias umdevbox='umount ~/Workspace/dozeo/devbox'
+alias cddevbox='cd ~/Workspace/dozeo/devbox'
 alias cdgentoo_devbox='cd ~/Workspace/dozeo/repositorys/toolbox/boxes/gentoo-devbox'
 alias vub='vagrant up base'
 alias vhb='vagrant halt base'
