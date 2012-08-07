@@ -40,4 +40,4 @@ export CLICOLOR=true
 export LSCOLORS=ExGxFxdxCxDxDxBxBxExEx
 
 # ruby version manager
-# [[ -s "/Users/florian/.rvm/scripts/rvm" ]] && source "/Users/florian/.rvm/scripts/rvm"
+[[ -s "/Users/florian/.rvm/scripts/rvm" ]] && source "/Users/florian/.rvm/scripts/rvm"
